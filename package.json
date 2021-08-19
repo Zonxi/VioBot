@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Bot made by Zonxi",
   "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js"
-  },
+ "scripts": {
+  "start": "node server.js"
+},
+
   "author": "Zonxi",
   "license": "ISC",
   "dependencies": {
