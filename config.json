@@ -1,5 +1,5 @@
 {
-    "token" : "ODU3NDM4MDk0NDA3MzY4NzY1.YNPldA.zSo1V1sL8aSds9JCQZxMrL0aR04",
+    "token" : "",
     "prefix": "v",
     "mongooseConnectionString": "mongodb+srv://Discordbot:518Wubba@discordbot.egkhr.mongodb.net/data"
 }
