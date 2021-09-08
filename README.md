@@ -1,3 +1,5 @@
+
+const mySecret = process.env['TOKEN']
 # Discord.JS-Coding-Tutorials
 
 ```

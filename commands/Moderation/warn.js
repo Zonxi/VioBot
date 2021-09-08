@@ -49,7 +49,7 @@ module.exports = {
         })
 
         message.channel.send('Warned the user!')
-        user.send('You have been warned!')
+        user.send('You have been warned, In Zonxi Nation!')
 
     }
 }

@@ -1,7 +1,11 @@
 const client = require('../index')
 const arrayOfStatus = [
-    'vhelp for all comands, watching over Vio...',
+    '.help/.h for all commands',
 ]
+
+
+
+
 
 client.on('ready', () => {
     console.log(`${client.user.tag} is now online!`)

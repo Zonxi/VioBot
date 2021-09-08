@@ -3,19 +3,35 @@
   "version": "1.0.0",
   "description": "Bot made by Zonxi",
   "main": "index.js",
- "scripts": {
-  "start": "node index.js"
-},
-
+  "scripts": {
+    "start": "node index.js"
+  },
   "author": "Zonxi",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.2",
+    "config.json": "0.0.4",
     "discord-logs": "^2.0.1",
     "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
     "glob": "^7.1.7",
     "mathjs": "^9.4.4",
+    "moment": "^2.29.1",
     "mongoose": "^5.13.7",
+    "ms": "^2.1.3",
+    "node": "^16.6.1",
     "node-fetch": "^2.6.1",
-    "nodemon": "^2.0.12"
-  }
+    "nodemon": "^2.0.12",
+    "npm": "^7.21.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zonxi/VioBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zonxi/VioBot/issues"
+  },
+  "homepage": "https://github.com/Zonxi/VioBot#readme"
 }

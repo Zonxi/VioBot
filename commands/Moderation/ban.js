@@ -16,6 +16,7 @@ module.exports = {
      * @param {String[]} args 
      */
     run: async (client, message, args, Discord) => {
+    
 
         const user = message.mentions.members.first();
         const reason = args.slice(1).join(' ');
@@ -26,8 +27,11 @@ module.exports = {
             await user.ban({
                 reason: reason,
             }).then(() => {
-                message.channel.send('banned!')
+                message.channel.send(`Successfully banned   from the server!`)
             })
+     
+              
+            
 
         } else {
             message.channel.send('cant find the user!')

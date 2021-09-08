@@ -6,16 +6,10 @@ const {
 const Schema = require('../../models/chatbot')
 
 module.exports = {
-    name: 'setchatbot',
-    description: "the bot talks to u!",
-    UserPerms: ["ADMINISTRATOR"],
-    BotPerms: ["ADMINISTRATOR"],
+    name: 'set-chatbot',
+    description: "Lets it so lonely users can chat with bot",
+    UserPerms: "ADMINISTRATOR",
     
-
-    
-    
-
-
     /*
      * @param {Client} client 
      * @param {Message} message 

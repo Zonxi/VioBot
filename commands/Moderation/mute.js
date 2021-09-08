@@ -7,8 +7,8 @@ const ms = require('ms')
 
 module.exports = {
     name: 'mute',
-    aliases: ['m'],
-    description: 'mute the member so he cant talk.',
+    aliases: [''],
+    description: '',
     usage: '',
     /** 
      * @param {Client} client 

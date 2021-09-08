@@ -4,6 +4,7 @@ module.exports = {
     name: 'unmute',
     aliases: ['um'], 
     description: 'unmute him so he can talk',
+    UserPerms: "ADMINISTRATOR",
     /** 
      * @param {Client} client 
      * @param {Message} message 

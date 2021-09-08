@@ -43,8 +43,8 @@ module.exports = {
             const emo = {
 
                 fun: ":video_game:",
-                utility: ":gear:",
-                moderation: ":tools:" // emojis for the categories
+                utility: ":tools:",
+                moderation: ":shield:" // emojis for the categories
             }
 
             let ccate = [];
@@ -77,7 +77,7 @@ module.exports = {
             //embed
             const embed = new MessageEmbed()
                 .setTitle(`Bot Commands`)
-                .setDescription(`>>> My prefix is \`${prefix}\`\nUse the menu, or use \`${prefix}help/h [category]\` to view commands base on their category!`)
+                .setDescription(`>>> My prefix is \`${prefix}\`\nUse the menu, or use \`${prefix}help/h [category]\` to view commands base on their category! \n\n [🔴 Invite Me Now](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands)`)
                 .addFields(categories)
                 .setFooter(
                     `Requested by ${message.author.tag}`,

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "events/Ready.js": [
+      {
+        "id": "4f275c9c-1d14-4d73-845c-aa8d21d664bf",
+        "line": 15,
+        "version": 66,
+        "index": 374
+      }
+    ],
+    "index.js": [
+      {
+        "id": "5b630884-a286-4860-80d5-2b5f367581a9",
+        "line": 1,
+        "version": 304,
+        "index": 0
+      }
+    ]
+  }
+}
